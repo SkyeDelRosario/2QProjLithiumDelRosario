@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+	font-family: Convergence;
+	background: #b8e4fa;
+}
+
+.logo {
+	font-size: 0.9896vw;
+	font-weight: bold;
+	font-color: black;
+	padding-left: 0.2604vw;
+}
+
+.logo img {
+	padding-top: 0.2604vw;
+	padding-bottom: 0.2604vw;
+	height: 2.0833vw;
+	vertical-align: middle;
+}
+
+header {
+	background: #2fbaff;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 99999999;
+}
+
+header .pagenamearea {
+	height: 2.6042vw;
+	font-size: 0.9896vw;
+	padding-right: 0.2604vw;
+}
+
+header .pagenamearea div {
+	margin-top: 0.599vw;
+}
+
+.title, .cardtitle {
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.pagename {
+	vertical-align: middle;
+}
+
+main {
+	position: absolute;
+	top: 2.604vw;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	
+}
+
+.innersites {
+	display: grid;
+	grid-template-columns: 80% 20%;
+}
+
+.left, .text {
+	margin-left: 0.5208vw;
+	margin-right: 1.5625vw;
+	font-size: 1.042vw;
+}
+
+.pfponright {
+	display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.pfponright img {
+	width: 14.0625vw;
+	border-radius: 1.042vw;
+}
+
+.cardstop {
+	margin-top: 1.042vw;
+	margin-bottom: 0.5208vw;
+	display: flex;
+	justify-content: space-around;
+}
+
+.cardsbottom {
+	margin-top: 0.5208vw;
+	margin-bottom: 0.5208vw;
+	display: flex;
+	justify-content: space-around;
+}
+
+.cardstop, .cardsbottom {
+	margin-right: 0.5208vw;
+}
+
+.card {
+    border: 0.2604vw solid #66ccff;
+	border-radius: 1.042vw;
+    width: 23.4375vw;
+	height: 16.6667vw;
+	z-index: 80;
+}
+
+.cardtitle {
+	padding: 0.2604vw;
+	text-align: center;
+	font-size: 1.042vw;
+}
+
+.thumbnail, .link {
+	text-align: center;
+}
+
+.card .thumbnail img {
+	width: 20.8333vw;
+	height: 11.7188vw;
+	object-fit: cover;
+	border-radius: 0.4167vw;
+}
+
+.bigfont a {
+	vertical-align: middle;
+	font-size: 1.042vw;
+}
+
+.link p {
+	margin-top: 0.8333vw;
+	margin-bottom: 0.8333vw;
+}
+
+.link .smallfont a, .smallfont div, .links .smallfont {
+	vertical-align: middle;
+	font-size: 0.9375vw;
+}
+
+.link a, .smallfont div, .links a {
+	border: 1px solid black;
+	border-radius: 0.5208vw;
+	padding-top: 0.3906vw;
+	padding-bottom: 0.3906vw;
+	padding-left: 0.7813vw;
+	padding-right: 0.7813vw;
+	background: #007ae2;
+	text-decoration: none;
+}
+
+.link a:hover, .smallfont div:hover, .links a:hover {
+	background: #ff82cc;
+}
+
+.link a, .smallfont a {
+	color: #ff99ec;
+}
+
+.link a:hover, .smallfont a:hover {
+	color: #ffc50f;
+}
+
+.pictures img {
+	margin-top: 3.125vw;
+	margin-bottom: 0.4167vw;
+	margin-right: 0.5208vw;
+	width: 19vw;
+	object-fit: contain;
+}
+
+.media {
+	position: relative;
+	top: 1.25vw;
+}
+
+.media figure {
+	position: relative;
+	top: 0.5208vw;
+	margin-top: 4.167vw;
+	margin-bottom: 0.4167vw;
+}
+
+.media video, .media audio, .media img {
+	width: 19vw;
+	height: 10.6875vw;
+	object-fit: contain;
+	border: 0;
+	border-radius: 0.5208vw;
+	z-index: 100;
+}
+
+.media .differentaspectratio {
+	height: 9.678vw;
+}
+
+.media .square {
+	height: 19vw;
+}
+
+.media audio {
+	height: 2.917vw;
+}
+
+nav {
+	height: 2.083vw;
+	text-align: center;
+}
+
+.links, .socmed {
+	margin-top: 1.042vw;
+	margin-bottom: 0.5208vw;
+}
+
+.links, .socmed, .socmednames {
+	list-style: none;
+	text-align: center;
+	display: block;
+}
+
+
+.links li {
+	display: inline;
+}
+
+.socmed li, .socmednames li {
+	display: inline;
+	padding: 0 7.813vw 0 7.813vw;
+}
+
+.links a {
+	display: inline-block;
+	margin: 0 7.813vw 0 7.813vw;
+}
+
+.socmed a {
+	display: inline-block;
+}
+
+footer {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italics {
+	font-style: italic;
+}
+
+sup {
+	font-size: 0.5208vw;
+}
+
+#mpsource h2, #ebsource h2, #egsource h2, #ytpsource h2, #tmmsource h2, #picsource h2{
+	position: sticky;
+	top: 2.6042vw;
+	background: #b8e4fa;
+}
+
+figcaption {
+	font-style: italic;
+	font-size: 0.625vw;
+	text-align: center;
+}
+
+.text h1, .left h1 {
+	font-size: 2em;
+	position: sticky;
+	top: 2.917vw;
+	background: #b8e4fa;
+}
+
+figure {
+	margin-block-start: 0; 
+	margin-block-end: 0; 
+	margin-inline-start: 0; 
+	margin-inline-end: 0; 
+	text-align: center;
+}
+
+.homefooter .socmed, .homefooter .socmednames {
+	position: relative;
+	top: 40vw;
+}
+
+.youtube {
+	background: url('../images/socmedsprites.png') no-repeat -117px -36px;
+	width: 61px;
+	height: 61px;
+}
+
+.youtube:hover {
+	background: url('../images/socmedsprites.png') no-repeat -117px -104px;
+	width: 60px;
+	height: 60px;
+}
+
+.twitter {
+	background: url('../images/socmedsprites.png') no-repeat -45px -36px;
+	width: 61px;
+	height: 61px;
+}
+
+.twitter:hover {
+	background: url('../images/socmedsprites.png') no-repeat -46px -104px;
+	width: 60px;
+	height: 60px;
+}
+
+.insta {
+	background: url('../images/socmedsprites.png') no-repeat -187px -36px;
+	width: 61px;
+	height: 61px;
+}
+
+.insta:hover {
+	background: url('../images/socmedsprites.png') no-repeat -187px -103px;
+	width: 61px;
+	height: 61px;
+}
+
+.microwave {
+	width: 301px;
+	height: 120px;
+	background: url('../images/microwavesprites.png') no-repeat;
+	animation: microwaves 3s ease-in-out 0s infinite alternate;
+	animation-timing-function: steps(27);
+}
+
+@keyframes microwaves {
+	from {background-position: -2px -10px;}
+	to {background-position: -8000px -10px;}
+}
+
+.sourcelink, .sup {
+	text-decoration: none;
+}
